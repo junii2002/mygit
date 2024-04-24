@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>동아리 가입 양식</title>
+</head>
+<body>
+
+<h2>동아리 가입 양식</h2>
+    <label for="name">이름 &nbsp;&nbsp;&nbsp;</label>
+    <input type="text" id="name" name2="name"><br/><br/>
+    <label for="subject">학부/학과 &nbsp;&nbsp;&nbsp;</label>
+    <select id="subject" name="subject">
+        <option value="소프트웨어학부">소프트웨어학부</option>
+        <option value="생명시스템학부">생명시스템학부</option>
+        <option value="기초공학부">기초공학부</option>
+    </select><br/><br/>
+    <label for="grade">학년 &nbsp;&nbsp;&nbsp;</label>
+    <input type="radio" id="1학년" name="grade" value="1학년">
+    <label for="1학년">1학년</label>
+    <input type="radio" id="2학년" name="grade" value="2학년">
+    <label for="2학년">2학년</label>
+    <input type="radio" id="3학년" name="grade" value="3학년">
+    <label for="3학년">3학년</label>
+    <input type="radio" id="4학년" name="grade" value="4학년">
+    <label for="4학년">4학년</label><br/><br/>
+    <label for="f_name">학번 &nbsp;&nbsp;&nbsp;</label>
+    <input type="text" id="f_name" name2="f_name"><br/><br/>
+    <label for="email">이메일&nbsp;&nbsp;&nbsp;</label>
+    <input type="email" id="email" name2="email"><br/><br/>
+    <label for="tel">전화번호 &nbsp;&nbsp;&nbsp;</label>
+    <input type="tel" id="tel" name2="tel" pattern="[0-9]{3}-[0-9]{4}=[0-9]{4}"><br/><br/>
+    <label for="reg">가입동기 &nbsp;&nbsp;&nbsp;</label>
+    <textarea name="reg" rows="5" cols="35"></textarea><br/><br/>
+    <input type="button" onclick="alert('가입되었습니다!')" value="가입하기">
+    <input type="button" onclick="alert('취소되었습니다')" value="취소하기">
+
+
+
+</body>
+</html>
